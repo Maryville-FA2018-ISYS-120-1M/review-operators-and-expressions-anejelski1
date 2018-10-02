@@ -15,3 +15,21 @@
  
 */
 
+
+
+
+
+
+// you have 50 cubes. you get more cubes every now and then. create a variable for how many cubes you have right now
+var cubes = 50
+// a friend gives you 50 more cubes
+cubes += 50
+// another friend who has collected cubes for years has 1000000 cubes. create a variable for his cubes.
+var fCubes = 1000000
+// your friend gives you his cubes, but then the tax collector comes by and demands you give him 100 cubes.
+cubes = (cubes + 1000000) - 100
+// you have too many cubes now. you must store them in boxes. the storage facility gives you as many boxes as you need. each box can hold 50 cubes. put all of your cubes in boxes
+var boxes = (cubes/50)
+// you have grown tired of collecting cubes. it's time to sell them. the cube recycling facility will give you 1 cent per box of cubes. sell your cubes
+var money = 0.00
+money = Double(boxes) * 0.01
